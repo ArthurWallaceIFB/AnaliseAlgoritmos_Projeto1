@@ -4,7 +4,7 @@ const chart = require("./chart");
 
 
 //EXECUÇÃO
-let tamanhosTeste = [10000, 100000, 1000000];
+let tamanhosTeste = [10000, 100000, 1000000, 10000000];
 let qntRepeticoes = 1;
 
 console.log("\n--- BUBBLE ---\n");

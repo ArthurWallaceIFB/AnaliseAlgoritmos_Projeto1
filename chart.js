@@ -47,7 +47,23 @@ function generate(tamanhos, data) {
                 }
             },
             layout: {
-                padding: 40
+                padding: {
+                    left: 40,
+                    right: 60,
+                    top: 20,
+                    bottom: 20
+                }
+            },
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Análise Empírica - SqrtSort',
+                    font: { size: 20, weight: 'bold' }
+                },
+                legend: {
+                    display: true,
+                    position: "bottom"
+                }
             }
         }
     }
