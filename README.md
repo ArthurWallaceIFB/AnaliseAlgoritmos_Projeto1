@@ -10,5 +10,8 @@ Para executar o programa, clone o projeto localmente e, no terminal, digite os s
 ```
 npm install;
 
-node final.js;
+node index.js;
 ```
+
+## Exemplo de gráfico analítico
+![Gráfico Análise](./graficos/AnaliseEmpirica.png)
