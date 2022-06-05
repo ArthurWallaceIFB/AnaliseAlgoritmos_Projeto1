@@ -32,7 +32,7 @@ function calcularMediaTempos(arr) {
 function gerarArrayAleatorio(tamanho) {
     let a = [];
     for (let i = 0; i < tamanho; i++) {
-        a.push(Math.round(Math.random() * 100000))
+        a.push(Math.floor(Math.random() * (1000 - 0 + 1)))
     }
     return a;
 }
